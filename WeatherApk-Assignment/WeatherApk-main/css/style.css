@@ -1,0 +1,103 @@
+*{
+    background: whitesmoke;
+    color: white;
+    background:linear-gradient(45deg,rgba(183, 204, 248, 0.717),rgba(7, 43, 127, 0.679)), url(Img1.jpg);
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.h1{
+    color: rgb(214, 147, 45);
+    text-decoration:dotted;
+    background: transparent;
+    font-family: 'Orbitron', sans-serif;
+}
+#cityInput, #cityName, #inputContainer,button{
+    margin: 3px;
+    border-radius: 10px;
+    
+    padding:5px;
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+}
+#animContainer {
+   background: transparent;
+    position: absolute;
+    left: 35%;
+    top:30%;
+    margin-right: -50%;
+    width: 30%;
+
+    height: 25%;
+}
+#weatherContainer{
+
+    background: transparent;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 310px;
+    width: 1300px;
+    
+}
+
+#iconsContainer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 250px;
+    width: 1210px;    
+    
+}
+
+.icons{
+    display: inline-bock;
+    float: left;
+    height: 210px;
+    width: 200px;
+    margin: 20px;
+}
+
+.image{
+    height: 140px;
+    width: 100%;
+}
+
+.imgClass{
+    height: 140px;
+    width: 100%;
+}
+
+.weather{
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.minValues{
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+
+.maxValues{
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    height: 30px;
+    width: 90px;
+    margin: 0;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
